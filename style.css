@@ -1,8 +1,8 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body, html {
     height: 100%;
@@ -42,7 +42,7 @@ nav .icon {
 }
 
 .hero-image {
-    background-image: url("../images/dish.png");
+    background-image: url("images/food.jpg");
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,12 +56,13 @@ nav .icon {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: red;
 }
 
 .hero-text h1 {
-    color: blueviolet;
-    font-size: 3em;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    font-size: 50px;
 }
 
 .hero-text a button {
@@ -89,7 +90,8 @@ nav .icon {
 
 .eachdish img {
     width: 100%;
-    height: auto;
+    height: 18rem;
+    padding: 5px;
 }
 
 .alldish:after{
