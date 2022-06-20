@@ -78,9 +78,14 @@ nav .icon {
 }
 
 .description {
-    max-width: 600px;
+    max-width: 70rem;
+    font-size: 20px;
     text-align: center;
-    margin: auto;
+    margin: 20px auto;
+}
+
+.description p {
+    margin: 5px auto;
 }
 
 .alldish {
